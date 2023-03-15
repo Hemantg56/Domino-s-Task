@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header START */
+
+header {
+    height: 70px;
+    /* background: hotpink; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    height: inherit;
+    width: 30%;
+    /* background-color: tomato; */
+    padding: 15px 0 0 120px;
+}
+
+header nav {
+    height: inherit;
+    width: 50%;
+    /* background-color: burlywood; */
+    padding-top: 23px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f88a3;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+header .app {
+    height: inherit;
+    width: 20%;
+    /* background-color: lightgreen; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 50px;
+}
+
+header .app button {
+    padding: 12px 30px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+header .app button:hover {
+    background-color: #fff;
+    color: red;
+}
+
+
+/* Header END */
+
+
+/* Contan START */
+
+.main {
+    height: 448px;
+    background-color: #1a60a3;
+    padding: 10px 0 0 10px;
+    display: flex;
+}
+
+.main aside {
+    height: 400px;
+    width: 40%;
+    /* background-color: darkcyan; */
+    /* margin: 40px; */
+    padding: 150px 70px;
+    /* margin: 140px 60px; */
+}
+
+.main aside h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    /* text-align: center; */
+    color: #fff;
+}
+
+.main aside p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    /* text-align: center; */
+    color: #47a0ff;
+}
+
+.main aside button {
+    margin-top: 25px;
+    padding: 18px 93px;
+    background-color: #1fb31a;
+    border: #1fb31a;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.main .img {
+    height: 438px;
+    width: 60%;
+    /* background-color: #1fb31a; */
+}
+
+.main .img img {
+    height: 100%;
+    width: 100%;
+    /* background-color: #1fb31a;xx */
+}
+
+
+/* Contan END */
+
+.piz {
+    height: 500px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: 50px auto;
+}
+
+.piz h1 {
+    height: 70px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #708aa5;
+    padding: 10px 0;
+}
+
+.piz .menu {
+    /* height: 300px; */
+    width: 97%;
+    /* background-color: #47a0ff; */
+    margin-left: 6px;
+    display: flex;
+    /* padding-right: 5px; */
+}
+
+.piz .menu .con1 {
+    /* height: 300px; */
+    width: 25%;
+    /* background-color: brown; */
+    border: 1px dotted #979797;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+
+.piz .menu .c1 {
+    margin-right: 0;
+}
+
+.piz .menu .img {
+    height: 120px;
+    /* background-color: #1fb31a; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piz .menu h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #2b4547;
+}
+
+.piz .menu p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.piz .menu .pg {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.piz .menu .dis {
+    padding: 15px 0;
+    border-top: 1px dotted #979797;
+    /* border-radius: 3px; */
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
